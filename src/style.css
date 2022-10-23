@@ -77,7 +77,10 @@ h3 {
 .navbar {
   margin-bottom: 30px;
 }
-
+.app-image {
+  max-width: 100%;
+  height: auto;
+}
 .app-info {
   text-align: left;
 }
@@ -94,4 +97,48 @@ h3 {
   text-decoration: none;
   text-transform: capitalize;
   width: 250px;
+}
+@media (max-width: 574px) {
+  h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 18px;
+    opacity: 0.7;
+  }
+  .app-image {
+    display: none;
+  }
+  .app-info {
+    text-align: center;
+  }
+  .app-info h2 {
+    text-align: center;
+    margin-top: -60px;
+  }
+  .launch-link {
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 100%;
+  }
+  .weather-section {
+    margin-top: 50px;
+  }
+  .yogurt-section {
+    margin-top: -40px;
+  }
+  .contact-info {
+    font-size: 18px;
+  }
 }
